@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://blog.glideservers.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://blog.glideservers.com/" rel="alternate" type="text/html" /><updated>2017-08-15T01:45:28+01:00</updated><id>http://blog.glideservers.com/</id><title type="html">GlideServers Blog</title><subtitle>GlideServers news and updates
+</subtitle><entry><title type="html">Moving the Screenshot server + SSL</title><link href="http://blog.glideservers.com/websites/glideservers/2017/08/15/imghost_move.html" rel="alternate" type="text/html" title="Moving the Screenshot server + SSL" /><published>2017-08-15T00:24:00+01:00</published><updated>2017-08-15T00:24:00+01:00</updated><id>http://blog.glideservers.com/websites/glideservers/2017/08/15/imghost_move</id><content type="html" xml:base="http://blog.glideservers.com/websites/glideservers/2017/08/15/imghost_move.html">&lt;p&gt;The &lt;a href=&quot;https://github.com/GlideServers/ShareX-Server&quot;&gt;GlideServers screenshot server&lt;/a&gt;, has been running since the 4th September, a total of 345 days.
+In that time we have accumulated 2823 screenshots, using 27GB space. (there are lots of videos too).&lt;/p&gt;
+
+&lt;p&gt;It started running on the SSD node (link to come to GS blog), but as space is a premium, I decided to move it when I migrated the nodes.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-move-it&quot;&gt;Why move it?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I wanted to use it to run some of the images that the main website used, however it required SSL to be enabled or else the website would not be green.&lt;/li&gt;
+  &lt;li&gt;With the moving of the SSD node (insert link to GS blog), the node would have slightly less storage on, so I could free up some by moving this to the HDD node.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;result&quot;&gt;Result&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now the website is green! Wohoo &lt;img src=&quot;http://i.imgur.com/6GyeIso.png&quot; alt=&quot;Greencap&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Images on the website will be served from here, so less file duplication&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;can-i-use-it&quot;&gt;Can I use it?&lt;/h3&gt;
+
+&lt;p&gt;Yes! You will need ShareX, but this is easy to configure, and I plan to write a wiki page in the ShareX repo.
+If you send me a message via e-mail (at the bottom), I can show you how to do this, and use our key to login.&lt;/p&gt;</content><author><name></name></author><summary type="html">The GlideServers screenshot server, has been running since the 4th September, a total of 345 days. In that time we have accumulated 2823 screenshots, using 27GB space. (there are lots of videos too).</summary></entry><entry><title type="html">Moving the GlideServers website to GitHub</title><link href="http://blog.glideservers.com/websites/glideservers/git/2017/08/14/glide_move.html" rel="alternate" type="text/html" title="Moving the GlideServers website to GitHub" /><published>2017-08-14T01:47:00+01:00</published><updated>2017-08-14T01:47:00+01:00</updated><id>http://blog.glideservers.com/websites/glideservers/git/2017/08/14/glide_move</id><content type="html" xml:base="http://blog.glideservers.com/websites/glideservers/git/2017/08/14/glide_move.html">&lt;p&gt;A friend and I have been running &lt;a href=&quot;https://www.glideservers.com&quot;&gt;GlideServers&lt;/a&gt; for a few years now. It is a VPS hosting business that uses OpenVZ.&lt;/p&gt;
+
+&lt;p&gt;We used to use FTP to edit the website, and while FTP is good, it has some limitations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;No version control&lt;/li&gt;
+  &lt;li&gt;One person can work at a time&lt;/li&gt;
+  &lt;li&gt;SLOW&lt;/li&gt;
+  &lt;li&gt;Buggy&lt;/li&gt;
+  &lt;li&gt;Server config would change&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And because of these reasons, we lacked the enthusiasm to change it often.&lt;/p&gt;
+
+&lt;p&gt;I moved the website to GitHub 6/08/2017, and since then, I have pushed over 100 commits and changed nearly 40k lines of code.
+This is obviously a huge improvement, as it is now so much easier to change and update often.&lt;/p&gt;
+
+&lt;p&gt;p.s - My friend is still on holiday, this is his surprise when he gets back :grinning:&lt;/p&gt;</content><author><name></name></author><summary type="html">A friend and I have been running GlideServers for a few years now. It is a VPS hosting business that uses OpenVZ.</summary></entry><entry><title type="html">Creating a Parking page</title><link href="http://blog.glideservers.com/websites/templates/2017/08/13/parking_page.html" rel="alternate" type="text/html" title="Creating a Parking page" /><published>2017-08-13T23:57:00+01:00</published><updated>2017-08-13T23:57:00+01:00</updated><id>http://blog.glideservers.com/websites/templates/2017/08/13/parking_page</id><content type="html" xml:base="http://blog.glideservers.com/websites/templates/2017/08/13/parking_page.html">&lt;p&gt;So I needed a good parking page for a few domains that I own, but don’t use yet.
+Here’s how I made one:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download a nice template from &lt;a href=&quot;http://html5up.net&quot;&gt;html5up.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Butcher the hell out of the code to make it look somewhat useable.&lt;/p&gt;
+
+    &lt;p&gt;Well, not completely butcher, just until it works.
+ I wanted something that looked nice, but was only one, non-scrollable page and was quite small&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reduce the code from 435 lines to 32 :)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now it looks like this
+&lt;img src=&quot;http://i.imgur.com/Zb9cu7g.png&quot; alt=&quot;screenshot&quot; /&gt;
+It also has two links&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In the title - This links to the &lt;a href=&quot;https://github.com/GlideServers/Parking&quot;&gt;github repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;In the button (more can be added) - that links to a &lt;a href=&quot;https://www.glideservers.com&quot;&gt;small business of mine&lt;/a&gt; / the place hosting the website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And there you have it, a working, ready to use parking page.&lt;/p&gt;</content><author><name></name></author><summary type="html">So I needed a good parking page for a few domains that I own, but don’t use yet. Here’s how I made one:</summary></entry></feed>
