@@ -19,5 +19,5 @@ The new server has double the ram, and twice the CPU cores.
 
 ### August 12
 * **1:43 pm** IP migration started, this took a while as each IP required 4 steps to move, and this was done manually.
-* **4:20 pm*** IP migration finished.
+* **4:20 pm** IP migration finished.
 
