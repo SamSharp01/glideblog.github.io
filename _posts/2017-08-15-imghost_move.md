@@ -17,7 +17,7 @@ It started running on the SSD node (link to come to GS blog), but as space is a 
 ### Result
 
 * Now the website is green! Wohoo ![Greencap](http://i.imgur.com/6GyeIso.png)
-* Images on the website will be served from here, so less file duplication
+* Images on the website will be served from here, so less file duplication.
 
 ### Can I use it?
 
