@@ -2,7 +2,7 @@
 layout: post
 title:  "Moving the GlideServers website to GitHub"
 date:   2017-08-14 01:47:00 +0100
-categories: websites glideservers git
+categories: glideservers websites git
 ---
 [GlideServers](https://www.glideservers.com) has been running for a few years now.
 
