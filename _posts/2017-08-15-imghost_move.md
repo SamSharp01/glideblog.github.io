@@ -7,12 +7,12 @@ categories: glideservers websites
 The [GlideServers screenshot server](https://github.com/GlideServers/ShareX-Server), has been running since the 4th September, a total of 345 days.
 In that time we have accumulated 2823 screenshots, using 27GB space. (there are lots of videos too).
 
-It started running on the SSD node (link to come to GS blog), but as space is a premium, I decided to move it when I migrated the nodes.
+It started running on the SSD node, but as space is a premium, I decided to move it when I migrated the nodes.
 
 ### Why move it?
 
 * I wanted to use it to run some of the images that the main website used, however it required SSL to be enabled or else the website would not be green.
-* With the moving of the SSD node (insert link to GS blog), the node would have slightly less storage on, so I could free up some by moving this to the HDD node.
+* With the [moving of the SSD node](http://blog.glideservers.com/glideservers/nodes/2017/08/16/ssdnode_move.html) , the node would have slightly less storage on, so I could free up some by moving this to the HDD node.
 
 ### Result
 
