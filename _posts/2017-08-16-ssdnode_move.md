@@ -2,7 +2,7 @@
 layout: post
 title:  "Migrating VPS's to new SSD node"
 date:   2017-08-16 21:34:00 +0100
-categories: nodes glideservers
+categories: glideservers nodes
 ---
 CA2 (SSD Node), was nearly under full usage, so we decided it was time to move.
 The new server has double the ram, and twice the CPU cores.
