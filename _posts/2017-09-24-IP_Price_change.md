@@ -2,7 +2,7 @@
 layout: post
 title:  "Pricing increase for additional IP's"
 date:   2017-09-24 23:22:00 +0100
-categories: pricing glideservers
+categories: glideservers pricing
 ---
 
 # Why
