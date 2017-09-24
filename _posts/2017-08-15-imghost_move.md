@@ -2,7 +2,7 @@
 layout: post
 title:  "Moving the Screenshot server + SSL"
 date:   2017-08-15 00:24:00 +0100
-categories: websites glideservers
+categories: glideservers websites
 ---
 The [GlideServers screenshot server](https://github.com/GlideServers/ShareX-Server), has been running since the 4th September, a total of 345 days.
 In that time we have accumulated 2823 screenshots, using 27GB space. (there are lots of videos too).
